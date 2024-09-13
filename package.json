@@ -1,5 +1,16 @@
 {
+  "name": "license-key-fetcher",
+  "version": "1.0.0",
+  "description": "A Node.js script to fetch and cache license keys from an API.",
+  "main": "api/fetchKeys.js",
+  "scripts": {
+    "start": "node api/fetchKeys.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
   "engines": {
-    "node": "18.x"
-  }
+    "node": "16.x"
+  },
+  "license": "MIT"
 }
